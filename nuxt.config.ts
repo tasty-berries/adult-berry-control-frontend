@@ -12,8 +12,8 @@ export default defineNuxtConfig({
 
     runtimeConfig: {
         public: {
-            apiUrl  : 'http://adultberry.vrkitty.ru/api/control',
-            assetUrl: 'http://adultberry.vrkitty.ru/storage'
+            apiUrl  : process.env.NUXT_API_URL,
+            assetUrl: process.env.NUXT_ASSET_URL
         }
     },
 
