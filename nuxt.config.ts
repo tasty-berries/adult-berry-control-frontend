@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     },
 
     extends: ['@nuxt/ui-pro'],
-    modules: ['@nuxt/ui', 'nuxt-tiptap-editor'],
+    modules: ['@nuxt/ui', 'nuxt-tiptap-editor', '@vueuse/nuxt'],
 
     runtimeConfig: {
         public: {
